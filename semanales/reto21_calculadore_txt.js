@@ -21,6 +21,10 @@
  *
  */
 
+
+//! PARA VISUALIZAR EL RESULTADO ABRIR reto21.html
+//! EN LA CONSOLA APARECEN LOS RESULTADOS
+
 const calcFromFile = async (fileURL) => {
     return fetch(fileURL)
         .then(response => {
